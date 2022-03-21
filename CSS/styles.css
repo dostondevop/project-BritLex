@@ -1,0 +1,164 @@
+body {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.6s ease;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  display: flex;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 131px 58px;
+}
+
+.header {
+  margin-bottom: 0;
+}
+
+.logo {
+  transition: all 0.6s ease;
+}
+
+.logo:hover {
+  opacity: 60%;
+}
+
+.link-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-item {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.link {
+  transition: all 0.6s ease;
+  font-weight: 500;
+  font-size: 20px;
+  color: #263238;
+  margin-left: 30px;
+}
+
+.link:hover {
+  opacity: 60%;
+}
+
+.header-link {
+  background-color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 36px;
+  color: #263238;
+  padding: 17px 57px;
+  border: 2px solid #263238;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 0 #000000;
+  transition: all 0.6s ease;
+  margin-left: auto;
+}
+
+.header-link:hover {
+  color: #fff;
+  background-color: #263238;
+  box-shadow: 1px 1px 5px 0 #000;
+}
+
+.intro {
+  margin-top: 0;
+}
+
+.intro-content {
+  display: inline-block;
+  margin-right: auto;
+}
+
+.intro-title {
+  width: 395px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.intro-text {
+  margin-top: 40px;
+  width: 570px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #8f95a5;
+  margin-bottom: 61px;
+}
+
+.intro-link {
+  width: 438px;
+  height: 118px;
+  background-color: #263238;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 32px 117px;
+  transition: all 0.6s ease;
+  box-shadow: 3px 3px 10px 0 #000;
+}
+
+.intro-link:hover {
+  color: #263238;
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 1px 1px 5px 0 #000;
+}
+
+.intro-img {
+  margin-left: auto;
+  display: inline-block;
+}
+
+.first-part {
+  display: flex;
+  margin-top: 147px;
+}
+
+.first-title {
+  display: inline-block;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 48px;
+  justify-content: center;
+}
+
+.first-list {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  margin-top: 96px;
+}
+
+.first-list-content {
+  display: inline-block;
+}
+
+.list-img {
+}
+
+.first-content-title {
+}
+
+.content-text {
+}
+
+.first-link {
+}

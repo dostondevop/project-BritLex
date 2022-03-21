@@ -1,0 +1,111 @@
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""),
+    url("../fonts/poppins-v19-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v19-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""), url("../fonts/roboto-v29-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v29-latin-regular.woff") format("woff");
+}
+
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Poppins" "Roboto";
+  transition: all 0.7s ease;
+}
+
+.container1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1240px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Poppins" "Roboto";
+  transition: all 0.7s ease;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  margin-bottom: 52px;
+}
+
+.logo {
+  width: 93px;
+  height: 32px;
+  margin-right: 20px;
+  transition: all 0.7s ease;
+}
+
+.logo:hover {
+  opacity: 70%;
+}
+
+.logo-img {
+  display: block;
+}
+
+.link-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.link-item {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.link {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  color: black;
+  font-weight: 400;
+  font-family: "oswald";
+  transition: all 0.7s ease;
+}
+
+.link:hover {
+  opacity: 50%;
+}
+
+.header-link {
+  border-radius: 30px;
+  color: #fff;
+  background: #0057ff;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: auto;
+  padding: 14px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "oswald";
+  transition: all 0.7s ease;
+}
+
+.header-link:hover {
+  color: #0057ff;
+  background: #e7e7e7ff;
+  box-shadow: 2px 2px 10px 0 #0057ff;
+}
