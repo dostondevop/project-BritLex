@@ -1,0 +1,65 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-family: 'Poppins', sans-serif;
+
+body {
+    font-family: $font-family;
+    line-height: 1.6;
+}
+
+header {
+    background: $primary-color;
+    .nav-link {
+        font-weight: 500;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .btn-outline-light {
+        font-weight: 500;
+    }
+}
+
+.intro {
+    background: #f8f9fa;
+    h1 {
+        color: $primary-color;
+    }
+    .btn {
+        background: $primary-color;
+        border: none;
+        &:hover {
+            background: darken($primary-color, 10%);
+        }
+    }
+}
+
+.skills .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+        transform: translateY(-10px);
+    }
+    .card-title {
+        color: $primary-color;
+    }
+}
+
+.pricing .card {
+    border: 1px solid $secondary-color;
+    h5 {
+        font-weight: 600;
+    }
+    .price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: $primary-color;
+    }
+}
+
+footer {
+    background: $primary-color;
+    .form-control {
+        border: none;
+    }
+}
